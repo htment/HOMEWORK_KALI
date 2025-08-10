@@ -147,4 +147,4 @@ FIN-сканирование:
 Xmas-сканирование:
 
 
-```tcp.flags.fin == 1 && tcp.flags.psh == 1 && tcp.flags.urg == 1```# HOMEWORK_KALI
+```tcp.flags.fin == 1 && tcp.flags.psh == 1 && tcp.flags.urg == 1```
