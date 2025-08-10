@@ -137,13 +137,16 @@ sessions -i 1
 ![alt text](image-22.png)
 
 Специфические фильтры для каждого типа
+
 SYN-сканирование:
 
 ```tcp.flags.syn == 1 && tcp.flags.ack == 0```
+
 FIN-сканирование:
 
 
 ```tcp.flags.fin == 1 && tcp.flags.ack == 0```
+
 Xmas-сканирование:
 
 
